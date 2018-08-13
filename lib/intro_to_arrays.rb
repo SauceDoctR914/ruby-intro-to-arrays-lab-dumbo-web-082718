@@ -1,0 +1,25 @@
+def instantiate_new_array
+  newArray = []
+  newArray
+end
+
+def array_with_two_elements
+  thisArray = [1, "guy"]
+  thisArray 
+end
+
+def first_element(array)
+  element = array[0]
+  element
+end
+
+def third_element(array)
+  element = array[2]
+  element
+end
+
+def last_element(array)
+  last = array.size - 1
+  element = array[last]
+  element
+end

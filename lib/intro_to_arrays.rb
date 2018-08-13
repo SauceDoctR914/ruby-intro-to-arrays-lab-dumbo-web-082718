@@ -23,3 +23,8 @@ def last_element(array)
   element = array[last]
   element
 end
+
+def first_element_with_array_methods(array)
+  element = array.shift
+  element
+end

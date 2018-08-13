@@ -34,4 +34,7 @@ def last_element_with_array_methods(array)
   element
 end
 
-def array
+def length_of_array(array)
+  size = array.size
+  size
+end
